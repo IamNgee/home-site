@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    /*font-style: Arial;*/
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+}
+/*start of hero-section*/
+#hero-town{
+    background-image: url("images/portHar.png");
+    background-size: cover;
+    width: 100vw;
+    height: 510px;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero-actives{
+    color:  #1D3557;
+    font-weight: 700;
+    padding: 20px;
+}
+#hero-h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    background: #1D3557;
+    border-radius: 10px;
+    width: 300px;
+    height: 34px;
+    margin: auto;
+}
+#hero-h2{
+    background: #457B9D;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.three{
+    background: #F1FAEE;
+    margin-top: 0%;
+}
+.activities{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 16px;
+}
+.guide{
+    display: flex;
+    width: 450px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: #cdb4db;
+    border-radius: 10px;
+    border-bottom: 6px solid #1d3557;
+    color: #1D3557;
+}
+#ng{
+    width: 200px;
+}
+img{
+    width: 100px;
+    border-radius: 50px;
+}
+.park:hover img {
+    transform: scaleY(1.8);
+}
+.zoo:hover img {
+    transform: scaleY(1.8);
+}
+.Bole:hover img {
+    transform: scaleY(1.8);
+}
